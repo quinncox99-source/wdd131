@@ -1,0 +1,43 @@
+body{
+    margin:auto;
+    margin-top: 5%;
+    width:30%;
+    text-align: center;
+}
+
+
+h2{
+    color: navy;
+    
+    font-size: large;
+}
+h1{
+    font-size:300%;
+}
+p{
+    font-size: large;
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+    margin-top: 5%;
+}
+ol{
+       font-size: large;
+    text-align: left;
+    align-items: left;
+    justify-content: left; 
+    
+}
+li{
+    margin-top: 4%;
+}
+#does{
+    text-align: left;
+    align-items: left;
+    justify-content: left;
+}
+
+img{
+    margin-top: 10%;
+    width:30%;
+}
