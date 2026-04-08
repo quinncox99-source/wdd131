@@ -5,31 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cool Pics</title>
     <link rel="stylesheet" href="styles.css">
+    <script defer src="variables.js"></script>
 </head>
 <header>
     <h1>Cool Pics 📷</h1>
-    <nav class="main-nav">
+    <div class="dropdown">
+    <button class="dropbtn" id="menu">Menu</button>
+    <div class="dropdown-content">
         <a href="#">Home</a>
         <a href="#">People</a>
         <a href="#">Places</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
-      <p id="menu">Menu</p>
-    </nav>
+    </div>
+        <a href="#">Home</a>
+        <a href="#">People</a>
+        <a href="#">Places</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </div>
 </header>
 <body>
     <h2>Current Work</h2>
     <ul class="photos">
-        <li><img src="images\norris-sm.jpg"></li>
-        <li><img src="images\norris-sm.jpg"></li>
-        <li><img src="images\norris-sm.jpg"></li>
-        <li><img src="images\norris-sm.jpg"></li>
-        <li><img src="images\norris-sm.jpg"></li>
-        <li><img src="images\norris-sm.jpg"></li>
-        <li><img src="images\norris-sm.jpg"></li>
-        <li><img src="images\norris-sm.jpg"></li>
-        <li><img src="images\norris-sm.jpg"></li>
+        <li><input type="image" onclick="test()" src="images\norris-sm.jpg"></li>
+        <li><input type="image" onclick="test()" src="images\norris-sm.jpg"></li>
+        <li><input type="image" onclick="test()" src="images\norris-sm.jpg"></li>
+        <li><input type="image" onclick="test()" src="images\norris-sm.jpg"></li>
+        <li><input type="image" onclick="test()" src="images\norris-sm.jpg"></li>
+        <li><input type="image" onclick="test()" src="images\norris-sm.jpg"></li>
+        <li><input type="image" onclick="test()" src="images\norris-sm.jpg"></li>
+        <li><input type="image" onclick="test()" src="images\norris-sm.jpg"></li>
+        <li><input type="image" onclick="test()" src="images\norris-sm.jpg"></li>
     </ul>
+
+
+  <!-- Modal content -->
+  <div id="myModal" class="modal-content">
+    <span class="close">&times;</span>
+    <img src="images\norris-sm.jpg" class="modal-img">
+  </div>
 
 </body>
 

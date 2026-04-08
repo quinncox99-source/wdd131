@@ -13,6 +13,13 @@ img{
     height: 300px;
     margin-top: 8%;
 }
+input{
+    object-fit: cover;
+    border: 5px solid white;
+    width:300px;
+    height: 300px;
+    margin-top: 8%;
+}
 header{
     background-color: blue;
     color:white;
@@ -48,13 +55,87 @@ width: 130%;
 
 
 }
+
+
+
+
+
+#myModal{
+  display: none;    
+ position: fixed; 
+  z-index: 1; 
+padding-top: 100px; 
+  left: 0;
+  top: 0;
+    overflow: auto;
+  width: 80%; 
+  height: 40%; 
+  margin: auto;
+
+}
+.modal-img{
+    width: 70%; 
+    height: 70%; 
+    min-width: 70%;
+    min-height: 70%;
+}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+ 
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropbtn{
+      color:white;
+      background-color: blue;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  background-color: blue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:cadetblue;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  padding: 12px 16px;
+  display: block;
+}
+
+
+@media (max-width: 1200px){
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: #ddd;}
+.dropdown:hover .dropbtn { color:cyan;}
+}
 @media (min-width: 850px) {
 
 .photos{
     display: grid;
     grid-template-columns: auto auto;
 }
-
+#myModal{
+    width: 80%; 
+  height: 80%; 
+}
 
 
 }
@@ -78,6 +159,16 @@ a{
 }
 header{
     padding-bottom: 30px;
+}
+#myModal{
+    width: 80%; 
+  height: 100%; 
+}
+
+.dropbtn{
+    cursor: not-allowed;
+  pointer-events: none;
+  
 }
 
 }
