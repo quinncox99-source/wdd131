@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     line-height: 1.6;
+    
 }
 header, footer {
     
@@ -11,6 +12,7 @@ header, footer {
     text-align: center;
 }
 .main-nav {
+
     list-style:none;
     padding: 0;
     display: grid;
@@ -32,9 +34,9 @@ hr{
     height:2px;
     border-width:0;
 }
-#book-list {
-    
-}
+
+
+
 .book {
     
     padding: 1rem;
@@ -61,7 +63,7 @@ hr{
     border-radius: 8px;
     margin: 0 auto;
 }
-#desc {
+.description {
     grid-column: 3/4;
 }
 
@@ -87,6 +89,12 @@ grid-row: 2/3;
 
 column-gap: 80px;
 }
-
+    #main-content{
+          display: flex;
+  justify-content: center;
+  align-items: center;
+    }
 
 }
+
+
