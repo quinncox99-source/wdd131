@@ -16,7 +16,10 @@ succeed=false;
 }
 console.log(expireM);
 console.log(expireY);
-if(parseInt(expireY)>=26){
+if(parseInt(expireY)<26){
+    succeed=false;
+}else
+    if(parseInt(expireY)==26){
     if(parseInt(expireM) <=4)
     succeed=false;
 }
