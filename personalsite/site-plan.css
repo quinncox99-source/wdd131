@@ -1,0 +1,23 @@
+.primary{
+    background-color: #D5A6BD;
+}
+.secondary{
+    background-color: #436A9F;
+}
+.Accent1{
+    
+    background-color: #CFE2F3;
+}
+.Accent2{
+    background-color:#B4A7D6 ;
+}
+
+img{
+    width: 50%;
+}
+#logo{
+    width: 20%;
+}
+footer{
+    margin-top: 200px;
+}
