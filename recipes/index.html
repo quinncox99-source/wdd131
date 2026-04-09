@@ -22,14 +22,53 @@
 
 <!-- One Apple Touch Icon (iOS home screen) -->
 <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-                
+
+<link href="styles.css" rel="stylesheet">
+<script defer src="variables.js"></script>                
 </head>
+<header>
+    
+    <h1><img src="images\recipe-book.png">RECIPEBOOK</h1>
+    <input type="search" id="site-search" name="q" placeholder="Find a recipe"/>
+    <button><img src="images\search.svg"></button>
+
+</header>
 <body>
     
+    <div class="recipe">
+        <img class="food"src="images\apple-crisp.jpg">
+        <p ><b class="tag">dessert</b></p>
+        <h2 class="title">APPLE CRISP</h2>
+        <span
+  class="rating"
+  role="img"
+  aria-label="Rating: 4 out of 5 stars"
+>
+  <span aria-hidden="true" class="icon-star">⭐</span>
+  <span aria-hidden="true" class="icon-star">⭐</span>
+  <span aria-hidden="true" class="icon-star">⭐</span>
+  <span aria-hidden="true" class="icon-star">⭐</span>
+  <span aria-hidden="true" class="icon-star-empty">☆</span>
+</span>
+<p class="description">This apple crisp recipe is a simple yet delicous fall dessert thats great served warm with vanilla ice cream.</p>
+    </div>
+
+
+
+
+
+
 </body>
 <footer>
     
-<a href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>                   
-                
+<a id="recipeIcon"href="https://www.flaticon.com/free-icons/recipe" title="recipe icons">Recipe icons created by Freepik - Flaticon</a>                   
+
+<div class="social">
+  <!-- Social media icons provided under CC from https://www.iconfinder.com/AlfredoCreates  -->
+  <a href="#"><img src="images/instagram_icon.svg" alt="instagram icon"></a>
+  <a href="#"><img src="images/youtube_icon.svg" alt="youtube icon"></a>
+  <a href="#"><img src="images/pinterest_icon.svg" alt="pinterest icon"></a>
+</div>                  
+                      
 </footer>
 </html>
